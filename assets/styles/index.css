@@ -102,8 +102,7 @@ header {
 }
 
 .image img {
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 150px;
 }
 
 h1 {
