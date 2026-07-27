@@ -10,9 +10,14 @@
 
 <body>
     <header>
-        <h1 class="header">Hi! I'm Ari</h1>
-        <h2>I build things on the internet.</h2>
-        <p>Developer · Linux enjoyer · Internet person · ¯\(ツ)/¯</p>
+        <div class="info">
+            <h1 class="header">Hi! I'm <span class="name">Ari</span></h1>
+            <h2>I <span class="intro"></span></h2>
+            <p>Developer · Linux enjoyer · Internet person · ¯\(ツ)/¯</p>
+        </div>
+        <div class="image">
+            <img src="https://a.stupid.cat/assets/media/avatar.png" style="width: 30vh">
+        </div>
     </header>
 
     <hr>
@@ -72,9 +77,36 @@
     <hr>
 
     <footer>
-        No cookies. No trackers. No Bullshit. | © 2003 (actually 2026) Ari. All rights reserved.
+        No cookies. No trackers. No Bullshit. | © 2026 Ari. All rights reserved.
     </footer>
 
     <script src="/assets/scripts/flavors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.intro', {
+        strings: [
+            "build things on the internet",
+            "break Linux installations",
+            "occasionally remember to commit my code",
+            "make the internet slightly weirder",
+            "overengineer simple problems",
+            "make things I think are cool",
+            "pretend I know what I'm doing"
+        ],        
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 2000,
+        loop: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".project"), {
+        max: 5,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.2
+    });
+    </script>
 </body>
 </html>
