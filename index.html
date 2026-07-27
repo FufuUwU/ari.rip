@@ -19,23 +19,20 @@
             <img src="https://a.stupid.cat/assets/media/avatar.png" style="width: 30vh">
         </div>
     </header>
-
-    <hr>
-
     <main>
         <div class="projects">
             <h2>Projects</h2>
 
             <div class="project">
                 <div class="project-text">
-                    <h3><a href="https://gaybot.site">GayBot</a></h3>
+                    <h3><a href="https://gaybot.site" target="_blank">GayBot</a></h3>
                     <p>A Discord bot used by 400+ servers and 4,700+ users.</p>
                     <!-- TODO: make the stats on this update live -->
                 </div>
 
                 <div class="project-image">
                     <img
-                        src="https://static.wixstatic.com/media/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png/v1/fill/w_980,h_527,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png"
+                        src="/assets/media/gaybot.png"
                         style="width: 160px; height: 90px;"
                         class="project-thumbnail"
                     >
@@ -44,14 +41,14 @@
 
             <div class="project project-reverse">
                 <div class="project-text">
-                    <h3><a href="https://is-a.stupid.cat">is-a.stupid.cat</a></h3>
+                    <h3><a href="https://is-a.stupid.cat" target="_blank">is-a.stupid.cat</a></h3>
                     <p>A free subdomain registration service.</p>
                 </div>
 
                 <div class="project-image">
                     <img
-                        src="https://static.wixstatic.com/media/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png/v1/fill/w_980,h_527,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png"
-                        style="width: 160px; height: 90px;"
+                        src="/assets/media/is-a-stupid-cat.svg",
+                        style="height: 90px;"
                         class="project-thumbnail"
                     >
                 </div>
@@ -59,13 +56,13 @@
 
             <div class="project">
                 <div class="project-text">
-                    <h3><a href="https://a.stupid.cat">a.stupid.cat</a></h3>
+                    <h3><a href="https://a.stupid.cat" target="_blank">a.stupid.cat</a></h3>
                     <p>My personal website and digital playground.</p>
                 </div>
 
                 <div class="project-image">
                     <img
-                        src="https://static.wixstatic.com/media/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png/v1/fill/w_980,h_527,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4b9d2b_1ed7ab0f5827434aa9d476a60191e7c8~mv2.png"
+                        src="/assets/media/astupidcat.png"
                         style="width: 160px; height: 90px;"
                         class="project-thumbnail"
                     >
@@ -73,40 +70,13 @@
             </div>
         </div>
     </main>
-
-    <hr>
-
     <footer>
         No cookies. No trackers. No Bullshit. | © 2026 Ari. All rights reserved.
     </footer>
-
-    <script src="/assets/scripts/flavors.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('.intro', {
-        strings: [
-            "build things on the internet",
-            "break Linux installations",
-            "occasionally remember to commit my code",
-            "make the internet slightly weirder",
-            "overengineer simple problems",
-            "make things I think are cool",
-            "pretend I know what I'm doing"
-        ],        
-        typeSpeed: 50,
-        backSpeed: 25,
-        backDelay: 2000,
-        loop: true
-        });
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".project"), {
-        max: 5,
-        speed: 400,
-        glare: true,
-        "max-glare": 0.2
-    });
-    </script>
+     <script src="/assets/scripts/global.js"></script>
+    <script src="/assets/scripts/index.js"></script>
+    <script src="/assets/scripts/flavors.js"></script>
 </body>
 </html>
