@@ -1,0 +1,53 @@
+.header {
+    color: var(--mauve);
+}
+
+body {
+    text-align: center;
+    background-color: var(--base);
+    color: var(--text);
+}
+
+a {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--lavender);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--surface-2);
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    margin: 2rem 20%;
+    padding: 1.5rem;
+
+    border: 1px solid var(--surface-2);
+    border-radius: 8px;
+    background-color: var(--surface-0);
+}
+
+.project:hover {
+    background-color: var(--surface-1);
+}
+
+.project-reverse {
+    flex-direction: row-reverse;
+}
+
+footer {
+    color: var(--subtext-0);
+}
+
+header {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}

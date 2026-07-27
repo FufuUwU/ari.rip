@@ -1,0 +1,19 @@
+
+@import url(theme-switcher.css);
+@import url(themes/frappe.css);
+@import url(themes/latte.css);
+@import url(themes/macchiato.css);
+@import url(themes/mocha.css);
+
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    color: var(--rosewater);
+}
