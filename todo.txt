@@ -1,3 +1,2 @@
-/flash easter egg
 favicon
 SEO
