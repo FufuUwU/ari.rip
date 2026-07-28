@@ -14,9 +14,15 @@ backDelay: 2000,
 loop: true
 });
 
-VanillaTilt.init(document.querySelectorAll(".project"), {
-    max: 5,
-    speed: 400,
-    glare: true,
-    "max-glare": 0.2
-});
+const isMacFirefox =
+    navigator.userAgent.includes("Macintosh") &&
+    navigator.userAgent.includes("Firefox/");
+
+if (!isMacFirefox) {
+    VanillaTilt.init(document.querySelectorAll(".project"), {
+        max: 5,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.2
+    });
+}
