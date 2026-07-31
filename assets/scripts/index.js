@@ -26,3 +26,11 @@ if (!isMacFirefox) {
         "max-glare": 0.2
     });
 }
+
+fetch("https://status.gaybot.site/api/stats")
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("guilds").textContent = data.guilds;
+    document.getElementById("installs").textContent = data.user_installs;
+  })
+  .catch(console.error);

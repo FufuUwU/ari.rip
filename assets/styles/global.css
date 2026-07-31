@@ -73,7 +73,7 @@ body::after {
   bottom: 0.5rem;
   width: clamp(96px, 14vw, 168px);
   aspect-ratio: 564 / 547;
-  background: url(/assets/media/teto.png) center / contain no-repeat;
+  background: url(/assets/media/theme/teto.png) center / contain no-repeat;
   opacity: 0.18;
   pointer-events: none;
   z-index: 0;
