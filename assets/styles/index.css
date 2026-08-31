@@ -41,6 +41,24 @@ hr {
     overflow: hidden;
 }
 
+.osc {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    width: 70%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+
+    background-color: var(--base);
+
+    position: relative;
+    overflow: hidden;
+}
+
+
 .project:hover {
     background-color: var(--surface-1);
 }
@@ -146,7 +164,7 @@ header {
 
 .projects {
     padding: 5rem 1rem;
-    background-color: var(--mantle);
+    background-color: var(--base);
 }
 
 footer {
@@ -154,4 +172,14 @@ footer {
     text-align: center;
     color: var(--subtext-0);
     border-top: 1px solid var(--surface-0);
+}
+
+.aboutme {
+    padding: 5rem 1rem;
+    background-color: var(--mantle);
+}
+
+ul {
+    padding-left: 0;
+    list-style-position: inside;
 }
