@@ -1,2 +1,3 @@
+figure out why there's such a big gap at the top of the sections
 favicon
-SEO
+SE
