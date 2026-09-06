@@ -183,3 +183,8 @@ ul {
     padding-left: 0;
     list-style-position: inside;
 }
+
+.about-text {
+    padding-left: 19rem;
+    padding-right: 19rem;
+}
